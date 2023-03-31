@@ -65,6 +65,8 @@ public class Ex1 extends JFrame {
 		contentPane.add(lblAnoDeNascimento);
 		
 		txtAno = new JTextField();
+		txtAno.setEnabled(false);
+		txtAno.setEditable(false);
 		txtAno.setColumns(10);
 		txtAno.setBounds(164, 62, 75, 20);
 		contentPane.add(txtAno);
